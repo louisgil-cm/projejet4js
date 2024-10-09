@@ -36,6 +36,7 @@ html {
 
         h2 {
             color: #d3573c;
+            margin-top: -7px;
         }
 
         h3 {
@@ -221,7 +222,9 @@ html {
       color: #901c1c;
       background: none;
       border: none;
+      transition: background-color 0.3s ease, transform 0.3s ease;
     }
+   
     
     .left {
       left: 32%;
@@ -240,6 +243,11 @@ html {
       border: none;
       cursor: pointer;
       color: #901c1c;
+    }
+    .close:hover{
+      background-color: rgba(255, 0, 0, 0.5);
+      color: white; 
+      padding: 0px 5px 0px 5px;
     }
     
     /* Responsive adjustments */
@@ -386,7 +394,7 @@ html {
         position: absolute;
         font-weight: bold;
         font-size: 1.2rem;
-        top: 27%;
+        top: 19%;
         left: 45%;
         background-color: #901c1c;
         border: none;
@@ -442,8 +450,9 @@ html {
 
     .close:hover,
     .close:focus {
-        color: black;
-        text-decoration: none;
+      background-color: rgba(255, 0, 0, 0.5);
+      color: white; 
+      padding: 0px 5px 0px 5px;
         cursor: pointer;
     }
 
@@ -494,8 +503,8 @@ html {
           font-weight: 700;
           height: 35px;
           width: 170px;
+          cursor: pointer;
           
-
         }
 
         label {

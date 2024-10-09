@@ -76,11 +76,11 @@ function filterPhotographers() {
       return true;
     }
 
-    // Vérifier si le photographe a tous les tags sélectionnés
+    // si le photographe a tous les tags sélectionnés
     return selectedTags.every(tag => photographer.tags.includes(tag.toLowerCase()));
   });
 
-  // Afficher les photographes filtrés
+  // photographes filtrés
   displayPhotographers(filteredPhotographers);
 }
 
