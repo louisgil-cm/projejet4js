@@ -79,9 +79,13 @@ html section article h3 {
   color: #d3573c;
   text-align: center;
 }
-html section article span {
+html section article #tagsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+html section article #tagsContainer span {
   margin-bottom: 10px;
-  text-align: center;
 }
 html section article div {
   display: flex;

@@ -90,11 +90,15 @@ html {
                 color: #d3573c;
                 text-align: center;
             }
-
-            span {
-                margin-bottom: 10px;
-                text-align: center; 
+            #tagsContainer{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                span {
+                    margin-bottom: 10px;
+                }
             }
+           
 
             div {
                 display: flex; 

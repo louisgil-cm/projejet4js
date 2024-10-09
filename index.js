@@ -123,6 +123,8 @@ function createPhotographerCard(photographer) {
 // Création du conteneur de tags
 function createTagsContainer(tags) {
   const tagsContainer = document.createElement("div");
+  tagsContainer.id = "tagsContainer";
+  
 
   tags.forEach(tag => {
     const tagElement = document.createElement("span");
