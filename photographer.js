@@ -112,8 +112,8 @@ function afficherGaleriePhotographe(photographerMedia = null) {
             const footerElement = document.createElement("footer");
             const titleElement = document.createElement("h3");
             titleElement.innerText = media.title;
-            const dateElement = document.createElement("h5")
-            dateElement.innerText = media.date
+            // const dateElement = document.createElement("h5")
+            // dateElement.innerText = media.date
 
             likesContainer = document.createElement("span");
             likesElement = document.createElement("strong");
@@ -126,7 +126,7 @@ function afficherGaleriePhotographe(photographerMedia = null) {
             likesContainer.appendChild(likesElement);
             likesContainer.appendChild(likeButton);
             footerElement.appendChild(titleElement);
-            footerElement.appendChild(dateElement);
+            // footerElement.appendChild(dateElement);
             footerElement.appendChild(likesContainer);
 
             mediaElement.appendChild(videoElement);
@@ -140,8 +140,8 @@ function afficherGaleriePhotographe(photographerMedia = null) {
             const footerElement = document.createElement("footer");
             const titleElement = document.createElement("h3");
             titleElement.innerText = media.title;
-            const dateElement = document.createElement("h5")
-            dateElement.innerText = media.date
+            // const dateElement = document.createElement("h5")
+            // dateElement.innerText = media.date
 
             likesContainer = document.createElement("span");
             likesElement = document.createElement("strong");
@@ -154,7 +154,7 @@ function afficherGaleriePhotographe(photographerMedia = null) {
             likesContainer.appendChild(likesElement);
             likesContainer.appendChild(likeButton);
             footerElement.appendChild(titleElement);
-            footerElement.appendChild(dateElement);
+            // footerElement.appendChild(dateElement);
             footerElement.appendChild(likesContainer);
 
             mediaElement.appendChild(imageElement);

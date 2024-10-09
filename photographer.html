@@ -11,44 +11,44 @@
 <body>
     <header>
         <a href="index.html">
-            <img class="header__logo" src="Medias/logo/logo.png" alt="logo FishEye" id="test">
+            <img class="header__logo" src="Medias/logo/logo.png" alt="logo FishEye" aria-label="Retour à la page d'accueil">
         </a>
     </header>
     <main>
         <section class="button">
             <!-- Bouton pour ouvrir la Modal -->
-            <button id="myBtn" >Contactez-Moi</button>
+            <button id="myBtn" aria-label="Contactez-moi">Contactez-Moi</button>
    
-       <!-- Le Modal -->
-       <div id="myModal" class="modal" >
-           <!-- Contenu du Modal -->
-           <div class="modalContent">
-               <div class="header__form">
-                   <div class="title">
-                        <h1>Contactez-moi</h1>
-                        <span class="close">&times;</span>
-                   </div>
-                   <h2 class="name"></h2>
-               </div>
-               <form id="myForm">
-                <label for="prenom">Prénom</label>
-                <input type="text" id="prenom" required>
-                <label for="name">Nom</label>
-                <input type="text" id="name" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" required>
-                <label for="commentaire">Votre message</label>
-                <textarea id="commentaire"></textarea>
-                <input class="send" type="submit" value="Envoyez">
-            </form>
-           </div>
-       </div>
-       </section>
+            <!-- Le Modal -->
+            <div id="myModal" class="modal">
+                <!-- Contenu du Modal -->
+                <div class="modalContent">
+                    <div class="header__form">
+                        <div class="title">
+                            <h1>Contactez-moi</h1>
+                            <span class="close" aria-label="Fermer la modal">&times;</span>
+                        </div>
+                        <h2 class="name"></h2>
+                    </div>
+                    <form id="myForm">
+                        <label for="prenom">Prénom</label>
+                        <input type="text" id="prenom" required>
+                        <label for="name">Nom</label>
+                        <input type="text" id="name" required>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                        <label for="commentaire">Votre message</label>
+                        <textarea id="commentaire"></textarea>
+                        <input class="send" type="submit" value="Envoyez">
+                    </form>
+                </div>
+            </div>
+        </section>
         <section id="photographerDetails">
         </section>
         <div id="sorting">
             <label for="sortOption">Trier par :</label>
-            <select id="sortOptions">
+            <select id="sortOptions" aria-label="Options de tri">
                 <option value="popularite">Popularité</option>
                 <option value="date">Date</option>
                 <option value="titre">Titre</option>
@@ -57,11 +57,10 @@
         <section id="photographerGallery">
             <div class="media"></div>
             <div class="lightbox" id="lightbox">
-                <div class="lightboxContent" id="lightboxContent">
-                </div>
-                <button class="arrow left" id=" left">&#10094;</button>
-                <button class="arrow right" id="right">&#10095;</button>
-                <button class="close" id="close">&times;</button>
+                <div class="lightboxContent" id="lightboxContent"></div>
+                <button class="arrow left" id="left" aria-label="Image précédente">&#10094;</button>
+                <button class="arrow right" id="right" aria-label="Image suivante">&#10095;</button>
+                <button class="close" id="close" aria-label="Fermer la lightbox">&times;</button>
             </div>
         </section>
         <section>
@@ -70,9 +69,4 @@
         </section>
     </main>
 </body>
-
 </html>
-
-
-
-

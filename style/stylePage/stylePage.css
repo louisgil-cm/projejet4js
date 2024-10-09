@@ -489,6 +489,16 @@ html body {
     left: 22%;
   }
 }
+@media (max-width: 480px) {
+  .button button {
+    left: 10%;
+  }
+  #close {
+    position: absolute;
+    top: 145px !important;
+    right: 0px !important;
+  }
+}
 select {
   background-color: #911c1c;
   border-radius: 5px;
